@@ -1,0 +1,13 @@
+type Photo{
+    id: Int!
+    latitude: Float
+    longitude: Float
+    owner: String
+    image: String
+    type: Type
+}
+
+enum Type{
+    NEW
+    OLD
+}
